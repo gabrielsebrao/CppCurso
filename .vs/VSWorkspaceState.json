@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Aulas",
+    "\\Aulas\\01 - Hello World"
   ],
-  "SelectedNode": "\\helloworld.cpp",
+  "SelectedNode": "\\Aulas\\01 - Hello World",
   "PreviewInSolutionExplorer": false
 }

@@ -12,6 +12,8 @@ int main() {
 
     introduction();
     std::cin >> choice;
+    std::cin.clear();
+    fflush(stdin);
 
     while(choice != 4) {
         switch(choice) {
@@ -31,6 +33,7 @@ int main() {
     std::cout << "Enter another choice:\n";
     std::cout << ">> ";    
     std::cin >> choice;
+    std::cin.clear();
 
     }
         

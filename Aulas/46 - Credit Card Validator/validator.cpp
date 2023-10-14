@@ -19,7 +19,11 @@ int main()
     delete sum2;
     delete creditNumber;
 
-    std::cout << result << '\n';
+    if(result % 10 == 0 && result != 0)
+        std::cout << "Valid credit number!";
+    else    
+        std::cout << "Invalid credit number!";
+
     std::cin.get();
 }
 

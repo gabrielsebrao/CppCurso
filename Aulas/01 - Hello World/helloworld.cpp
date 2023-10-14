@@ -1,8 +1,7 @@
 #include <iostream>
+#define Log(x) std::cout << x << std::endl;
 
 int main(){
     // This is a comment!
-    std::cout << "Hello World!\n";
-    std::cout << "I wanna learn C++";
-    return 0;
+    Log("Hello")
 }
